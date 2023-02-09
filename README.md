@@ -2,4 +2,4 @@
 
 This is a capstone project for Front End Developer certificate by META.
 
-![FigmaBoard](littlelemon\screenshots\LittleLemonCapstone.png)
+![FigmaBoard](/screenshots/LittleLemonCapstone.png)
