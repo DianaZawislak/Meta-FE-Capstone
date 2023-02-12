@@ -8,7 +8,9 @@ import {BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
 import Footer from './components/Footer';
 import SignUp from './components/SignUp';
+// eslint-disable-next-line
 import { buildQueries } from '@testing-library/react';
+
 
 function App() {
   return (
