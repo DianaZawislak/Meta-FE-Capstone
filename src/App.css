@@ -149,10 +149,10 @@ section {
 }
 
 /* Testimonial */
-#testimoniol {
+#testimonial {
   padding: 5% 20%;
   position: relative;
-  background-color: #080808;
+  background-color: #FBDABB;
   letter-spacing: 2px;
 }
 
@@ -161,24 +161,33 @@ section {
   padding: 0 15%;
 }
 
-#testimoniol .section_title {
-  color: #fff;
+#testimonial .section_title {
+  color: #121212;
   margin-bottom: 2rem;
   text-align: center;
+  font-family: 'Markazi Text';
+  margin-bottom: 50px;
 }
-#testimoniol p {
-  color: #fff;
+
+.star {
+  font-size:200%;
+  color:#495E57;
+}
+
+.carousel-control-next,
+.carousel-control-prev  {
+    filter: invert(70%);
 }
 
 .testimonial_text {
   font-size: 1.2rem;
   line-height: 1.5;
-  color: #cb410b;
+  color: #495E57;
 }
 
 .testimonial_image {
   width: 10%;
-  border-radius: 100%;
+  border-radius: 40%;
   margin: 20px;
 }
 
