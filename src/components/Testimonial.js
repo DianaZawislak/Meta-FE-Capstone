@@ -10,7 +10,10 @@ import customer_three from "../images/customer_three.jpg";
 const Testimonial = () => {
     return (
 <>
+<section className="testimonials" id="testimonials">
+<div className="container">
         <div className="row" id="testimonial">
+        
             <h1 className="section_title">What customers say for us.</h1>
 
 {/* -----------------------------CAROUSEL ITEM-------------------------------- */}
@@ -133,6 +136,8 @@ const Testimonial = () => {
                 </button>
             </div>
         </div>
+        </div>
+        </section>
 </>
 
     );
