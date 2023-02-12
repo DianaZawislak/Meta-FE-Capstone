@@ -3,7 +3,7 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import greeksalad from "../images/greeksalad.jpg";
 import basket from "../images/basket .svg";
-import 'bootstrap/dist/css/bootstrap.min.css';
+// import 'bootstrap/dist/css/bootstrap.min.css';
 import lemondessert from "../images/lemondessert.jpg";
 import bruschetta from "../images/bruschetta.jpg";
 
