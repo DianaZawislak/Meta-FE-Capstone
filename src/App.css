@@ -1,38 +1,357 @@
-.App {
+* {
+  padding: 0;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  transition: 0.2s linear;
+  letter-spacing: 2;
+}
+
+/* Header*/
+
+
+.nav-link {
+  color: #100f0f;
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-family: 'Karla', sans-serif;
+}
+
+.nav-link.active {
+  background-color:#f4ce14 !important;
+  border-radius: 5px;
+}
+.nav-link:hover {
+  color: #fbdabb;
+  border-radius: 0.3rem;
+  background-color: #495e57;
+
+}
+
+.navbar-toggler {
+  border: 4px solid #495e57;
+  margin-right: 15px;
+  margin-bottom: 30px;
+}
+
+
+
+/* Home */
+.home {
+  min-height: auto;
+  background:#495e57 ;
+  max-height: 530px;
+}
+
+section {
+  padding: 2rem 5%;
+}
+
+
+.home  h3 {
+  font-size: 5rem;
+  font-family: 'Markazi Text';
+  color: #f4ce14;
+}
+.home h4 {
+  font-size: 2.5rem;
+  color: #f6f3f1;
+  font-family: 'Markazi Text';
+}
+
+.home  p {
+  font-size: 1.1rem;
+  line-height: 1.5;
+  padding: 1rem 0;
+  color: #fff;
+  letter-spacing: 1px;
+  font-family: 'Karla' Sans-serif;
+  margin-right: 150px;
+}
+
+.home img {
+  border-radius: 16px;
+  margin-top: 40px;
+}
+
+.btn{
+  background-color: #f4ce14;
+  font-family: 'Karla' Sans-serif ;
+  font-weight: 700;
+  font-size: x-large;
+  width: 310px;
+
+}
+
+.btn:hover {
+  background-color: #285430;
+}
+
+/* Menu */
+
+.menu h1 {
+  font-family: 'Markazi Text';
+  font-weight: 600;
+}
+
+
+.menu button {
+  background-color: #BEB6B6;
+  font-family: 'Karla' Sans-serif;
+  font-size: large;
+  width:100%;
+  text-align: left;
+}
+
+.menu button:hover {
+  background-color: #f4ce14;
+  font-family: 'Karla' Sans-serif;
+  font-size: large;
+  width:100%;
+  text-align: right;
+}
+
+.card-footer {
+  background-color: #EDEFEE;
+  align-items: flex-start;
+  max-height: fit-content;
+} 
+
+
+.special {
+  color: #fff;
+}
+
+.price {
+  color:#EE9972;
+}
+
+.card-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #050505;
+}
+
+.card-text {
+  color: #285430;
+}
+.card:hover {
+  border: 3px solid #285430;
+  cursor: pointer;
+  background-color: #ffffff;
+  box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.5);
+  opacity: 70%;
+}
+
+
+.card-body {
+  background-color: #EDEFEE;
+}
+
+/* Testimonial */
+#testimoniol {
+  padding: 5% 20%;
+  position: relative;
+  background-color: #080808;
+  letter-spacing: 2px;
+}
+
+.carousel-item {
+  text-align: center;
+  padding: 0 15%;
+}
+
+#testimoniol .section_title {
+  color: #fff;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+#testimoniol p {
+  color: #fff;
+}
+
+.testimonial_text {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  color: #cb410b;
+}
+
+.testimonial_image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel_item {
+  padding: 7% 15%;
+}
+
+/* About */
+#about {
+  padding: 10% 20%;
+  background: url("./images/background_04.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about-image {
+  width: 75%;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.about-images .two {
+  position: relative;
+  left: 100px;
+  bottom: 110px;
+}
+
+.about-details h3 {
+  color: #ffba00;
+  /* color: #ff7e00; */
+  font-size: 2.5rem;
+  letter-spacing: 2px;
+}
+
+.about-details h4 {
+  color: #3fff00;
+  font-size: 2rem;
+  letter-spacing: 2px;
+}
+
+.about-details p {
+  margin-top: 2rem;
+  line-height: 1.5;
+  letter-spacing: 2px;
+  color: #fff;
+}
+
+/* Footer */
+#footer {
+  padding: 2% 20%;
+  background-color: #080808;
+  color: #fff;
+  font-size: 12px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.footer-section {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.footer-image {
+  width: 10%;
+  height: 10%;
+  margin-bottom: 1.5rem;
+}
+.footer-section h3 {
+    font-size: 20px;
+    font-weight: bold;
+}
+/* Forms */
+form {
+  font-weight: bold;
+  /* border: 1px solid black; */
+  padding: 8% 20%;
+  border-radius: 2rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+label, button {
+  margin-top: 2rem;
+}
+
+form h2, form p {
+  text-align: center;
+}
+
+.form-check-label {
+  margin-top: -1.5rem;
+  font-weight: lighter;
+}
+
+.register {
+  background: url("./images/background_05.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.signin {
+  background: url("./images/background_06.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Reservation */
+.reservation {
+  background: url("./images/background_08.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  height: 100vh;
+}
+
+/* .table-image img {
+  border-start-end-radius: 3rem;
+}
+.second-img {
+  position: relative;
+  left: 150px;
+  bottom: 150px;
+} */
+
+.table-form form {
+  padding: 3rem;
+  border: 2px solid white;
+}
+
+/* media queries for tablet */
+@media (max-width:991px) {
+  section {
+      padding: 2rem;
+  }
+  .home .content h3 {
+    font-size: 4rem;
+  }
+  .home .content p {
+    font-size: 1.3rem;
+    font-weight: lighter;
+    line-height: 1.8;
+    color: #fff;
+  }
+  #menu {
+    padding: 5% 10%;
+  }
+  .order-btn {
+    margin-bottom: 2px;
+  }
+  .special {
+    text-align: center;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+/* media queries for mobile */
+@media (max-width:480px) {
+  .home {
+      background-position: center;
+      justify-content: center;
+      text-align: center;
   }
-  to {
-    transform: rotate(360deg);
+  .home .content h3 {
+      font-size: 2.5rem;
+  }
+  .home .content p {
+      font-size: 1rem;
+  }
+  .menu-item {
+    font-size: 0.8rem;
+  }
+  .card-details {
+    margin-top: 5px;
+  }
+  .first {
+    text-align: center;
+  }
+  .order-btn {
+    margin-bottom: 2px;
   }
 }
