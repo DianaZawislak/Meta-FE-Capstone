@@ -91,7 +91,7 @@ section {
 
 .menu h1 {
   font-family: 'Markazi Text';
-  font-weight: 600;
+  font-weight: 500;
 }
 
 
@@ -115,7 +115,7 @@ section {
   background-color: #EDEFEE;
   align-items: flex-start;
   max-height: fit-content;
-} 
+}
 
 
 .special {
@@ -136,7 +136,7 @@ section {
   color: #285430;
 }
 .card:hover {
-  border: 3px solid #285430;
+  border: 3px solid #acb2ad;
   cursor: pointer;
   background-color: #ffffff;
   box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.5);
@@ -149,8 +149,7 @@ section {
 }
 
 /* Testimonial */
-#testimonial {
-  padding: 5% 20%;
+#testimonials {
   position: relative;
   background-color: #FBDABB;
   letter-spacing: 2px;
@@ -163,12 +162,11 @@ section {
 
 #testimonial .section_title {
   color: #121212;
-  margin-bottom: 2rem;
+  font-weight: 500;
   text-align: center;
   font-family: 'Markazi Text';
   margin-bottom: 50px;
 }
-
 .star {
   font-size:200%;
   color:#495E57;
@@ -198,15 +196,13 @@ section {
 /* About */
 #about {
   padding: 10% 20%;
-  background: url("./images/background_04.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: #edefee;
 }
 
 .about-image {
-  width: 75%;
-  border: 2px solid black;
-  border-radius: 5px;
+  width: 80%;
+  border: 7px solid #edefee;
+  border-radius: 25px;
 }
 
 .about-images .two {
@@ -216,34 +212,80 @@ section {
 }
 
 .about-details h3 {
-  color: #ffba00;
-  /* color: #ff7e00; */
+  color: #121212;
+  font-weight: 500;
+  text-align: left;
+  font-family: 'Markazi Text';
   font-size: 2.5rem;
-  letter-spacing: 2px;
+
 }
 
 .about-details h4 {
-  color: #3fff00;
+  color: #495E57;
   font-size: 2rem;
   letter-spacing: 2px;
+  font-weight: 500;
+  font-family: 'Markazi Text';
 }
 
 .about-details p {
   margin-top: 2rem;
   line-height: 1.5;
   letter-spacing: 2px;
-  color: #fff;
+  color: #495E57;
+  font-family: 'Karla' Sans-serif;
+  font-weight: 400;
+  font-size: large;
 }
 
 /* Footer */
-#footer {
-  padding: 2% 20%;
-  background-color: #080808;
-  color: #fff;
+.socials{
+  background-color: #495E57;
   font-size: 12px;
-  letter-spacing: 1px;
   cursor: pointer;
+  text-align: center;
+  margin-bottom: -10px;
+  align-items: center;
+  justify-content: center;
 }
+
+.footer{
+  background-color: #495E57;
+  font-size: 12px;
+  cursor: pointer;
+  align-items: center;
+}
+
+.flinks a {
+  color:#edefee !important;
+  font-size: 1.3rem;
+  line-height: 2;
+}
+
+.footer p {
+  font-size: 1.3rem;
+  line-height: 1;
+  color:#EDEFEE
+}
+
+.m-3 {
+  color: #495E57;
+  width: 50px;
+  border-radius: 40%;
+  border-color: #f4ce14;
+  justify-content: center;
+
+}
+
+.socials p{
+  
+
+  letter-spacing: 2px;
+  color: #d1d7d5;
+  font-family: 'Karla' Sans-serif;
+  font-size: 1rem;
+}
+
 
 .footer-section {
   text-align: center;
