@@ -1,31 +1,30 @@
-
+import Navbar from './components/Navbar';
+import Home from './components/Home';
+import About from './components/About';
+import Menu from './components/Menu';
+import Reservation from './components/Reservation';
+import Login from './components/Login';
+import {BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
-import React from "react";
 import Footer from './components/Footer';
-import Nav from './components/Nav';
-import Main from './components/Main';
-import Header from './components/Header';
-import Home from "./components/Home";
-import Menu from "./components/Menu";
-import About from "./components/About";
-import Book from "./components/Book";
-import {Route, Routes } from "react-router-dom";
-
-
+import SignUp from './components/SignUp';
+import { buildQueries } from '@testing-library/react';
 
 function App() {
   return (
     <div className="App">
-      <Nav />
+      <Router>
+        <Navbar />
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="about" element={<About />} />
-          <Route path="menu" element={<Menu />} />
-          <Route path="book" element={<Book />} />
+          <Route path="/" element={<Home />} exact />
+          <Route path="/about" element={ <About />} />
+          <Route path="/menu" element={ <Menu />} />
+          <Route path="/reservation" element={<Reservation />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/signup" element={<SignUp />} />
         </Routes>
-    <Main/>
-    <Header/>
-    <Footer/>
+        <Footer />
+      </Router>
     </div>
   );
 }
