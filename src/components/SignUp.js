@@ -3,7 +3,10 @@ import { NavLink } from 'react-router-dom';
 
 const SignUp = () => {
     return (
-        <div className="register">
+        
+        <section className="register">
+            <div className='container'>
+                
             <div className="form-two"  id="my-login">
                 <form>
                     <h2>Register!</h2>
@@ -39,11 +42,15 @@ const SignUp = () => {
                         <input type="text" className="form-control" id="inputZip" required/>
                         </div>
                     </div>
-                    <button type="submit" className="btn btn-primary">Sign Up</button>
+                    <div className='rbutton'>
+                    <button type="submit" className="btn">Sign Up</button>
                     <p>Already have an account? <NavLink to="/login">Login</NavLink></p>
+                    </div>
                 </form>
             </div>
         </div>
+        </section>
+    
     );
 };
 
