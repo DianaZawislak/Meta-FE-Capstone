@@ -4,9 +4,10 @@ const Reservation = () => {
     return (
       <>
         <section className='reservation' id='myTable'>
+          <div className='container'>
           <div className='row'>
-            <div className='col-lg-6 table-image'></div>
-            <div className='col-lg-6 table-form'>
+           
+            <div className='col-lg-12 table-form'>
               <h2 style={{ textAlign: 'center' }}>Book a Table!</h2>
               <form>
                 <div className='row'>
@@ -122,12 +123,14 @@ const Reservation = () => {
                     </label>
                   </div>
                 </div>
-                <button className='btn btn-primary' type='submit'>
+                <button className='btn' type='submit'>
                   Submit
                 </button>
               </form>
             </div>
           </div>
+</div>
+
         </section>
       </>
     );
