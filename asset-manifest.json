@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/Meta-FE-Capstone/static/css/main.d56efc6b.chunk.css",
+    "main.js": "/Meta-FE-Capstone/static/js/main.f9a7e080.chunk.js",
+    "main.js.map": "/Meta-FE-Capstone/static/js/main.f9a7e080.chunk.js.map",
+    "runtime-main.js": "/Meta-FE-Capstone/static/js/runtime-main.bc56bdda.js",
+    "runtime-main.js.map": "/Meta-FE-Capstone/static/js/runtime-main.bc56bdda.js.map",
+    "static/css/2.95654557.chunk.css": "/Meta-FE-Capstone/static/css/2.95654557.chunk.css",
+    "static/js/2.aec39cf0.chunk.js": "/Meta-FE-Capstone/static/js/2.aec39cf0.chunk.js",
+    "static/js/2.aec39cf0.chunk.js.map": "/Meta-FE-Capstone/static/js/2.aec39cf0.chunk.js.map",
+    "static/js/3.fd1c2353.chunk.js": "/Meta-FE-Capstone/static/js/3.fd1c2353.chunk.js",
+    "static/js/3.fd1c2353.chunk.js.map": "/Meta-FE-Capstone/static/js/3.fd1c2353.chunk.js.map",
+    "index.html": "/Meta-FE-Capstone/index.html",
+    "static/css/2.95654557.chunk.css.map": "/Meta-FE-Capstone/static/css/2.95654557.chunk.css.map",
+    "static/css/main.d56efc6b.chunk.css.map": "/Meta-FE-Capstone/static/css/main.d56efc6b.chunk.css.map",
+    "static/js/2.aec39cf0.chunk.js.LICENSE.txt": "/Meta-FE-Capstone/static/js/2.aec39cf0.chunk.js.LICENSE.txt",
+    "static/media/MarioAdrianA.7f44c6d6.jpg": "/Meta-FE-Capstone/static/media/MarioAdrianA.7f44c6d6.jpg",
+    "static/media/MarioAdrianB.6ba0e06b.jpg": "/Meta-FE-Capstone/static/media/MarioAdrianB.6ba0e06b.jpg",
+    "static/media/basket .768e26fd.svg": "/Meta-FE-Capstone/static/media/basket .768e26fd.svg",
+    "static/media/bruschetta.9f0e7ef0.jpg": "/Meta-FE-Capstone/static/media/bruschetta.9f0e7ef0.jpg",
+    "static/media/customer_icon.b0d8c856.jpg": "/Meta-FE-Capstone/static/media/customer_icon.b0d8c856.jpg",
+    "static/media/customer_icon_1.cb567a9e.png": "/Meta-FE-Capstone/static/media/customer_icon_1.cb567a9e.png",
+    "static/media/customer_icon_2.e04e107a.png": "/Meta-FE-Capstone/static/media/customer_icon_2.e04e107a.png",
+    "static/media/customer_three.a4d45b41.jpg": "/Meta-FE-Capstone/static/media/customer_three.a4d45b41.jpg",
+    "static/media/customer_two.5f9e5f8a.jpg": "/Meta-FE-Capstone/static/media/customer_two.5f9e5f8a.jpg",
+    "static/media/greeksalad.bed423a1.jpg": "/Meta-FE-Capstone/static/media/greeksalad.bed423a1.jpg",
+    "static/media/logo_navbar.d4cae6fa.png": "/Meta-FE-Capstone/static/media/logo_navbar.d4cae6fa.png",
+    "static/media/restauranfood.80079283.jpg": "/Meta-FE-Capstone/static/media/restauranfood.80079283.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bc56bdda.js",
+    "static/css/2.95654557.chunk.css",
+    "static/js/2.aec39cf0.chunk.js",
+    "static/css/main.d56efc6b.chunk.css",
+    "static/js/main.f9a7e080.chunk.js"
+  ]
+}
