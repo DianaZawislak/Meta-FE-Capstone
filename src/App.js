@@ -8,6 +8,7 @@ import {BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
 import Footer from './components/Footer';
 import SignUp from './components/SignUp';
+
 // eslint-disable-next-line
 import { buildQueries } from '@testing-library/react';
 
@@ -18,7 +19,7 @@ function App() {
       <Router>
         <Navbar />
         <Routes>
-          <Route path="/" element={<Home />} exact />
+          <Route path="/" element={<Home />} />
           <Route path="/about" element={ <About />} />
           <Route path="/menu" element={ <Menu />} />
           <Route path="/reservation" element={<Reservation />} />
