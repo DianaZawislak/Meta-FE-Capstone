@@ -19,7 +19,7 @@ function App() {
       <Router>
         <Navbar />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route exact path="/" component={<Home />} />
           <Route path="/about" element={ <About />} />
           <Route path="/menu" element={ <Menu />} />
           <Route path="/reservation" element={<Reservation />} />
